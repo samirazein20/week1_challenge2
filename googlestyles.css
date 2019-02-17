@@ -1,0 +1,215 @@
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.content {
+    padding-bottom: 35px;
+}
+
+div {
+    display: block;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-size: small;
+    
+
+}
+
+body{
+    background: #ffffff;
+    color: #222222;
+
+}
+
+body, td, a, p, .h{
+    font-family: arial,sans-serif
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -webkit-transition: left 0.4s ease-in-out;
+    -moz-transition: left 0.4s ease-in-out;
+    -ms-transition: left 0.4s ease-in-out;
+    -o-transition: left 0.4s ease-in-out;
+    transition: left 0.4s ease-in-out;
+}
+
+.container.open-sidebar{
+    left: 240px;
+}
+
+.swipe-area{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+#googlesearch{
+    border-color: #ffffff;
+    position: absolute;
+    width: 550px;
+    height: 6%;
+    left: 400px;
+    top: 300px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px grey;
+    -moz-box-sizing: border-box;
+    background: url(images/Google_mic.svg.png);
+
+}
+
+#mail:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#imgs:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#micPhone{
+    background-image: url(images/Google_mic.svg.png);
+    border-image-width: 200;
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+}
+
+.jhp input[type="submit"], .gbqfba {
+    height: 36px;
+    line-height: 27px;
+}
+.jhp input[type="submit"], .sbdd_a input, .gbqfba {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+
+input {
+    padding: 1px 0px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+#btn1{
+    background: #edf0ed;
+    border-color: #ffffff;
+    color: black;
+    position: absolute;
+    width: 150px;
+    height: 6%;
+    left: 510px;
+    top: 380px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+
+#btn2{
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    background: #edf0ed;
+    border-color: #ffffff;
+    color: black;
+    position: absolute;
+    width: 150px;
+    height: 6%;
+    right: 515px;
+    top: 380px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#paragraphstyle{
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#p1{
+    right: 500px; 
+}
+
+#p2{
+    right: 450px; 
+}
+
+
+
+
